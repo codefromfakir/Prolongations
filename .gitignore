@@ -1,2 +1,35 @@
-# created by virtualenv automatically
-*
+# Игнорируем виртуальное окружение
+Lib/
+Scripts/
+pyvenv.cfg
+CACHEDIR.TAG
+
+# Игнорируем файлы Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Игнорируем скомпилированные Python файлы
+*.pyc
+__pycache__/
+
+# Игнорируем файлы среды разработки
+.vscode/
+
+# Игнорируем временные файлы
+*.tmp
+*.bak
+*.swp
+
+# Игнорируем файлы с настройками IDE
+.idea/
+
+# Игнорируем файлы с результатами выполнения
+*.out
+*.log
+
+
+# Дополнительные шаблоны для безопасности
+*.exe
+*.bat
+*.ps1
+*.fish
+*.nu
